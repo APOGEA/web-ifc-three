@@ -32,5 +32,19 @@
   "workspaces": [
     "web-ifc-three",
     "example"
-  ]
+  ],
+  "dependencies": {
+    "@rollup/plugin-node-resolve": "^13.0.6",
+    "esformatter": "^0.11.3",
+    "jest": "^27.4.3",
+    "rollup": "^2.60.2",
+    "rollup-plugin-typescript2": "^0.31.1",
+    "three": "^0.135.0",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.2",
+    "web-ifc": "0.0.30"
+  },
+  "devDependencies": {
+    "@types/three": "^0.135.0"
+  }
 }
